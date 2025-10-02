@@ -46,7 +46,7 @@ python main.py --mode generate --checkpoint model-improved-chat-Final-6.pkl
 - For production: Add logging (e.g., via `logging` module) and evaluation metrics.
 
 ## Notes
-- Training on full OpenWebText requires significant GPU resources (e.g., T4/A100).
+- Training on full OpenWebText requires significant GPU resources (e.g., T4/A100). (I used kaggle for free gpu usage but even that is limiting).
 - Generation uses top-k sampling for diversity.
 - Tested on Python 3.11+ with PyTorch 2.0+.
 
